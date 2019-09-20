@@ -3,7 +3,7 @@
   import 'dart:async';
   import 'dart:convert';
   import 'key.dart';
-  const request =  "https://api.hgbrasil.com/finance?format=json-cors&key=$key()";
+  const request =  "https://api.hgbrasil.com/finance?format=json-cors&key=$key()";//class key armazena a chave para API de contação, entre no site e crie uma prória 
 
 
 void main() async {
